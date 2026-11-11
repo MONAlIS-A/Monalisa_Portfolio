@@ -1,249 +1,358 @@
 # AI Engineer Portfolio
 
-> **Building production-oriented AI systems that are measurable, reliable, scalable, and cost-efficient.**
+> **Problem-Driven AI Engineering | Intelligent Systems | Production Engineering**
 
 Welcome to my AI Engineering Portfolio.
 
-I am an **AI Engineer focused on building and engineering real-world AI systems**, with an emphasis on **LLM applications, RAG, AI agents, evaluation, reliability, backend systems, and production engineering**.
+I am an **AI Engineer focused on designing, building, evaluating, and optimizing real-world intelligent systems**.
 
-This repository serves as the central hub for my AI engineering work. Each major project is maintained in its own repository, with implementation, technical documentation, experiments, evaluation results, and engineering decisions documented independently.
+My engineering approach starts with understanding the problem, not choosing a model or framework.
+
+I analyze real-world requirements, data characteristics, technical constraints, performance expectations, and operational costs to determine the most appropriate solution — whether that involves traditional software engineering, rule-based systems, machine learning, or large language models.
+
+My focus is on engineering complete systems that are measurable, reliable, scalable, maintainable, and cost-efficient.
+
+This repository serves as the central hub for my engineering work. Each major project is maintained in its own repository, with implementation, architecture, technical documentation, experiments, evaluation results, and engineering decisions documented independently.
 
 ---
 
 ## 👩‍💻 About Me
 
-I focus on building **production-oriented AI systems rather than isolated model demos**.
+I focus on building **production-oriented intelligent systems rather than isolated AI demonstrations**.
 
-My engineering approach considers the complete lifecycle of an AI system:
+I approach engineering problems from both software engineering and AI engineering perspectives.
 
-**Problem → Requirements → Architecture → Implementation → Evaluation → Optimization → Production**
+My work considers the complete lifecycle of a system:
 
-I am particularly interested in systems where AI quality must be balanced with real-world engineering constraints such as:
+**Problem Discovery → Requirements Analysis → Technology Selection → System Design → Implementation → Evaluation → Optimization → Production Readiness**
 
-* Accuracy
-* Reliability
-* Latency
-* Cost
-* Scalability
-* Maintainability
-* Observability
+I believe that successful AI engineering requires more than integrating a capable model. It requires selecting the right approach, designing the surrounding system, understanding its limitations, and continuously improving it through measurable evidence.
 
-My goal is not simply to make an AI system work, but to understand **why it works, where it fails, and how it can be improved measurably**.
+My engineering priorities include:
 
----
-
-## 🎯 AI Engineering Focus
-
-### 🤖 Generative AI & LLMs
-
-* Large Language Model applications
-* Retrieval-Augmented Generation (RAG)
-* LLM inference
-* Embeddings
-* Tokenization
-* Prompt engineering
-* Context engineering
-* AI agents
-* Tool use and orchestration
-* Grounded generation
-* Hallucination mitigation
-
-### 🔎 Retrieval & Information Systems
-
-* Document ingestion
-* Document processing
-* Chunking strategies
-* Embedding pipelines
-* Vector search
-* Dense retrieval
-* Sparse retrieval
-* Hybrid retrieval
-* Reranking
-* Context construction
-* Retrieval evaluation
-
-### 🧪 AI Evaluation & Reliability
-
-* Retrieval evaluation
-* Generation evaluation
-* End-to-end RAG evaluation
-* Groundedness evaluation
-* Hallucination analysis
-* Failure analysis
-* Benchmarking
-* Regression testing
-* AI observability
+- Problem-solving and technical decision-making
+- Appropriate technology and model selection
+- System architecture and database design
+- AI quality and evaluation
+- Reliability and failure handling
+- Performance and cost optimization
+- Scalability, security, and maintainability
+- Production readiness and observability
 
 ---
 
-## ⚙️ Backend & AI Systems
+## 🎯 Engineering Approach
 
-* Python
-* FastAPI
-* Django
-* Django REST Framework
-* REST API design
-* PostgreSQL
-* Redis
-* RabbitMQ
-* Celery
-* Asynchronous processing
-* Background jobs
-* Distributed systems
-* Event-driven systems
-* Modular architecture
-* Clean Architecture
-* Microservice-oriented design
-* Docker
+### 1. Problem Discovery & Requirements Analysis
+
+Every project starts with understanding the actual problem.
+
+Before selecting technologies, I focus on:
+
+- Identifying real-world problems and user requirements
+- Understanding business objectives and expected outcomes
+- Analyzing available data and its limitations
+- Defining functional and non-functional requirements
+- Identifying technical, operational, and budget constraints
+
+The objective is to understand what needs to be solved before deciding how to solve it.
+
+### 2. Technology Assessment & AI Decision Making
+
+Not every problem requires artificial intelligence.
+
+I evaluate different approaches before selecting an implementation strategy.
+
+Depending on the problem, possible approaches include:
+
+| Approach | Suitable Use Cases |
+|---|---|
+| Traditional Software | Deterministic logic, business rules, structured workflows |
+| Rule-Based Systems | Explicit conditions and decision logic |
+| Classical Machine Learning | Classification, prediction, and pattern recognition |
+| Deep Learning | Complex learned representations and perception tasks |
+| LLM / Generative AI | Language understanding, generation, and reasoning |
+| Hybrid Systems | Combining deterministic software and AI capabilities |
+
+Technology decisions are guided by:
+
+- Problem complexity
+- Data availability and quality
+- Expected accuracy and reliability
+- Latency and throughput requirements
+- Development and operational costs
+- Scalability and maintainability
+
+I aim to select the simplest approach that effectively satisfies the requirements.
+
+### 3. System Design & Architecture
+
+I design systems by considering the complete application rather than treating AI components as isolated features.
+
+My system engineering considerations include:
+
+- High-level and low-level system design
+- Component responsibilities and boundaries
+- API design and service integration
+- Database schema and data modeling
+- Data flow and processing pipelines
+- Caching and asynchronous processing
+- Scalability and performance requirements
+- Security and failure handling
+
+The architecture is selected based on actual system requirements rather than unnecessary complexity.
+
+### 4. Implementation & Integration
+
+I focus on building modular, maintainable, and testable systems.
+
+This includes:
+
+- Backend and API development
+- Database and data pipeline implementation
+- AI/ML model integration
+- LLM and agent orchestration
+- External service integration
+- Background processing and asynchronous workflows
+- Testing and integration validation
+
+### 5. Evaluation & Optimization
+
+A system should not be considered successful simply because it produces an expected output.
+
+I establish measurable evaluation criteria, test system behavior, identify failure cases, and optimize based on evidence.
+
+My evaluation process:
+
+**Baseline → Measurement → Failure Analysis → Optimization → Re-evaluation**
+
+### 6. Production Readiness
+
+I consider production requirements throughout development rather than treating deployment as the final engineering step.
+
+Key considerations include:
+
+- Reliability and fault tolerance
+- Security and access control
+- Logging, monitoring, and observability
+- Latency and throughput optimization
+- Resource utilization and cost control
+- Scalability and maintainability
+- Deployment and recovery strategies
+
+---
+
+## 🤖 AI Engineering Focus
+
+My AI engineering work focuses on building practical intelligent systems using appropriate AI technologies.
+
+### Generative AI & LLM Systems
+
+- Large Language Model applications
+- Prompt and context engineering
+- LLM inference and tokenization
+- Embeddings and semantic search
+- Retrieval-Augmented Generation (RAG)
+- AI agents and tool orchestration
+- Grounded generation and hallucination mitigation
+- LLM integration and optimization
+
+### Retrieval & Information Systems
+
+- Document ingestion and processing
+- Chunking strategies
+- Embedding pipelines
+- Dense and sparse retrieval
+- Hybrid search
+- Reranking
+- Context construction
+- Retrieval quality evaluation
+
+### Machine Learning
+
+- Problem-driven model selection
+- Classification and prediction
+- Model evaluation and benchmarking
+- Feature engineering
+- Model performance analysis
+- ML integration into backend systems
+
+### AI Evaluation & Reliability
+
+- Retrieval and generation evaluation
+- End-to-end system evaluation
+- Groundedness and faithfulness analysis
+- Hallucination analysis
+- Benchmarking and regression testing
+- Failure analysis and error categorization
+- AI observability
+
+---
+
+## ⚙️ Software & Systems Engineering
+
+I work across the software engineering layers required to build and operate intelligent systems.
+
+**Programming & Backend**
+- Python
+- Django
+- Django REST Framework
+- FastAPI
+- REST API design
+
+**Database & Data Engineering**
+- PostgreSQL
+- Redis
+- Database design and optimization
+- Data modeling
+- Data processing pipelines
+
+**Asynchronous & Distributed Systems**
+- Celery
+- RabbitMQ
+- Background jobs
+- Event-driven processing
+- Distributed system fundamentals
+
+**Architecture & Infrastructure**
+- Modular architecture
+- Clean Architecture
+- Microservice-oriented design
+- Docker
+- CI/CD fundamentals
 
 ---
 
 ## 🏗️ Production Engineering
 
-* System design
-* API reliability
-* Caching
-* Asynchronous processing
-* Logging
-* Monitoring
-* Observability
-* Latency optimization
-* Throughput optimization
-* Cost optimization
-* Performance engineering
-* Failure handling
-* Scalability
+Production AI engineering requires balancing system quality with operational constraints.
+
+My engineering considerations include:
+
+| Area | Key Considerations |
+|---|---|
+| System Design | Architecture, component boundaries, data flow |
+| Reliability | Error handling, retries, timeouts, fault tolerance |
+| Performance | Latency, throughput, resource utilization |
+| Scalability | Concurrent workloads, horizontal scaling, bottlenecks |
+| Observability | Logging, metrics, monitoring, tracing |
+| Security | Authentication, authorization, data protection |
+| Cost Optimization | Token usage, inference cost, infrastructure cost |
+| Operations | Deployment, health checks, recovery, maintainability |
 
 ---
 
-## 🔬 Engineering Philosophy
+## 📊 Evaluation & Engineering Metrics
 
-I believe production AI engineering is not only about selecting a capable model.
+I believe engineering decisions should be supported by measurable results rather than subjective impressions.
 
-The system around the model matters just as much:
-
-```text
-Problem
-   ↓
-Requirements
-   ↓
-Architecture
-   ↓
-Implementation
-   ↓
-Baseline
-   ↓
-Evaluation
-   ↓
-Failure Analysis
-   ↓
-Optimization
-   ↓
-Re-evaluation
-   ↓
-Production Readiness
-```
-
-I intentionally evaluate failure scenarios during development to understand system limitations before production deployment.
-
----
-
-## 📊 What I Measure
-
-AI systems should be evaluated using measurable evidence rather than subjective impressions.
-
-Depending on the system, I evaluate:
+Depending on the project, I evaluate the following:
 
 **AI Quality**
+- Accuracy
+- Relevance
+- Faithfulness
+- Groundedness
+- Hallucination rate
 
-* Accuracy
-* Relevance
-* Faithfulness
-* Groundedness
-* Hallucination rate
-
-**Retrieval**
-
-* Recall@K
-* Precision@K
-* MRR
-* Hit Rate
-* NDCG
+**Retrieval Quality**
+- Recall@K
+- Precision@K
+- MRR
+- Hit Rate
+- NDCG
 
 **System Performance**
+- Average latency
+- P95 / P99 latency
+- Throughput
+- Resource utilization
 
-* Average latency
-* P95 / P99 latency
-* Throughput
-* Resource utilization
-
-**Cost**
-
-* Cost per request
-* Token consumption
-* Model cost
-* Infrastructure cost
+**Operational Cost**
+- Cost per request
+- Token consumption
+- Model inference cost
+- Infrastructure cost
 
 **Reliability**
+- Error rate
+- Timeout rate
+- Failure recovery
+- Regression performance
 
-* Error rate
-* Timeout rate
-* Failure recovery
-* Regression performance
-
-Detailed benchmarks and evaluation results are documented within individual project repositories.
-
----
-
-## 🚀 Projects
-
-The portfolio projects are maintained independently so that each system can have its own implementation, experiments, evaluation, architecture, and technical documentation.
-
-**Explore the projects → [Projects](./Projects/README.md)**
+Detailed benchmarks, experimental results, and evaluation methodologies are documented within individual project repositories.
 
 ---
 
-## 📚 Current Learning
+## 🚀 Featured Projects
 
-* LLM & Transformer Systems
-* Retrieval & RAG
-* AI Agent Architecture
-* AI Evaluation & Reliability
-* Distributed Systems
-* AI Infrastructure
-* Machine Learning Systems
-* System Design
-* Production AI Architecture
+My projects are maintained independently to keep implementation, architecture, experimentation, and technical documentation organized.
+
+Each project focuses on solving a specific problem while demonstrating the engineering decisions behind the solution.
+
+**Explore Projects → [Projects](./Projects/README.md)**
+
+For each major project, I aim to document:
+
+- Problem statement and requirements
+- Technology selection and engineering decisions
+- System architecture and data flow
+- Implementation and technical design
+- Evaluation and benchmarking
+- Performance and cost considerations
+- Limitations and failure analysis
+- Production readiness
 
 ---
 
-## 🧠 Engineering Approach
+## 🔬 Engineering Experiments & Research
 
-I prefer a **measurement-driven and experiment-driven** approach to AI engineering.
+Beyond implementation, I explore engineering approaches through experimentation and technical analysis.
 
-Instead of assuming that a system is good because it produces plausible outputs, I try to:
+My interests include:
 
-1. Establish a baseline
-2. Define measurable evaluation criteria
-3. Test system behavior
-4. Identify failure cases
-5. Perform root-cause analysis
-6. Optimize the system
-7. Re-evaluate the changes
-8. Document the engineering decisions
+- LLM and RAG performance optimization
+- Retrieval strategy comparisons
+- AI evaluation methodologies
+- Agent architecture and orchestration
+- Model selection and inference optimization
+- AI reliability and security
+- Distributed systems and production architecture
+
+I value understanding not only what works, but also why an approach works, where it fails, and under what conditions another approach becomes more suitable.
+
+---
+
+## 📚 Current Learning & Exploration
+
+I continuously develop my knowledge across AI and production software engineering.
+
+Current areas of focus:
+
+- LLM and Transformer Systems
+- Retrieval-Augmented Generation
+- AI Agent Architecture
+- AI Evaluation and Reliability
+- Machine Learning Systems
+- Distributed Systems
+- AI Infrastructure
+- System Design and Production Architecture
+- AI Security and Safety
 
 ---
 
 ## 📫 Contact
 
-**GitHub:** [MONAlIS-A](https://github.com/MONAlIS-A)
+I am interested in engineering challenges involving AI systems, intelligent applications, backend architecture, and production engineering.
 
-**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/monalisa-monalisa-5a9b833a2/)
-
-**Email:** [monalisamonalisa577@gmail.com](mailto:monalisamonalisa577@gmail.com)
+- **GitHub:** [MONAlIS-A](https://github.com/MONAlIS-A)
+- **LinkedIn:** [Monalisa](https://www.linkedin.com/in/monalisa-monalisa-5a9b833a2/)
+- **Email:** [monalisamonalisa577@gmail.com](mailto:monalisamonalisa577@gmail.com)
 
 ---
 
-## ⭐ Portfolio Principle
+## ⭐ Engineering Philosophy
 
-> **Don't just build AI systems. Build systems you can measure, debug, explain, and improve.**
+> **Problem First. AI When Necessary. Engineering Always.**
+
+> Don't just build AI systems. Build systems you can measure, debug, explain, and improve.
